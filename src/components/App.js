@@ -1,7 +1,7 @@
 
 import React from "react";
 import './../styles/App.css';
-
+import {useState} from 'react'
 const App = () => {
   const [weather, setWeather] = useState({ temperature: 25, conditions: "Sunny" });
   const threshold = 20;
